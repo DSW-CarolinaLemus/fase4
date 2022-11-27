@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F4690;
+    padding: 20px;
+    color: #B2C8DF;
+}
+.navegacion{
+    background-color: #1F4690;
+    padding: 30px;
+}
+.contenedor{
+    background-color: #E8AA42;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: ifr ifr ifr ifr ;
+}
+.principal{
+    background-color: #FFE5B4;
+    padding: 30px;
+    grid-column: 2/5;
+}
+.lateral{
+    background-color: #B2C8DF;
+    padding: 30px;
+    grid-column:1/2;
+}
+.ple{
+    background-color: #B2C8DF;
+    padding: 30px;
+}
